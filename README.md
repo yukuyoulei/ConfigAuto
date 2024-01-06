@@ -1,5 +1,5 @@
 # ConfigAuto
-Unity编辑器下通过配置匿名类，自动生成类并填充数据，省去序列化和反序列化的消耗
+基于C#代码热更方案（ILRuntime / HybridCLR），Unity编辑器下通过配置匿名类，自动生成类并填充数据，省去序列化和反序列化的消耗
 
 放到Editor目录下，会自动遍历Editor目录所有Config_开头的配置文件，并生成同名文件到Assets同级的ConfigAuto/Configs目录下
 
