@@ -1,6 +1,8 @@
 # ConfigAuto
 基于C#代码热更方案（ILRuntime / HybridCLR），Unity编辑器下通过配置匿名类，自动生成类并填充数据，省去序列化和反序列化的消耗
 
+导出的内容为正常的C#代码，完美适用于各种PC、安卓、iOS、微信小游戏等各种平台，懒加载，零学习成本零GC零IO，没有序列化反序列成本。
+
 用法非常简单，把 ConfigGen.cs 放到Editor目录下，会自动遍历Editor目录所有Config_开头的配置文件，并生成同名文件到Assets同级的ConfigAuto/Configs目录下。
 
 需求不怕复杂，配置表能配出来功能就能做出来。
