@@ -1,5 +1,8 @@
 # ConfigAuto
 
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/yukuyoulei/ConfigAuto.svg?variant=light)](https://starchart.cc/yukuyoulei/ConfigAuto)
+
 ## 概述 (Overview)
 
 ConfigAuto 是一个基于 C# 代码热更新方案（例如 ILRuntime 或 HybridCLR）的 Unity 编辑器扩展工具。它允许开发者通过在 `Editor` 目录中配置 C# 匿名类，自动生成对应的强类型配置类并将数据直接烘焙到代码中，从而**彻底免除**了运行时的序列化与反序列化开销。
